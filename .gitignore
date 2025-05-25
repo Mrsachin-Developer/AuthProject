@@ -1,0 +1,38 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Build outputs
+dist/
+build/
+.vite/
+
+# Logs
+logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE configs
+.vscode/
+.idea/
+
+# Other
+coverage/
+
+# Ignore all node_modules folders recursively
+**/node_modules
+
+# Ignore all .env files recursively
+**/.env
+
+# Ignore build and cache
+**/dist
+**/.vite
